@@ -37,7 +37,7 @@ def main() -> None:
     """ Main function.
     """    
     sbom_obj = Sbom(find_sbom_path())
-    sbom_obj.print_count_licenses()
+    sbom_obj.print_summarize()
 
 if __name__ == '__main__':
     main()
