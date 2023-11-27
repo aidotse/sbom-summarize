@@ -1,0 +1,34 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2023-11-27T07:23:27Z",
+    "creators": [
+      "Tool: GitHub.com-Dependency-Graph"
+    ]
+  },
+  "name": "com.github.aidotse/sbom-summarize",
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-com.github.aidotse-sbom-summarize"
+  ],
+  "documentNamespace": "https://github.com/aidotse/sbom-summarize/dependency_graph/sbom-2082ca85c1bdf951",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-com.github.aidotse-sbom-summarize",
+      "name": "com.github.aidotse/sbom-summarize",
+      "versionInfo": "",
+      "downloadLocation": "git+https://github.com/aidotse/sbom-summarize",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:github/aidotse/sbom-summarize"
+        }
+      ]
+    }
+  ],
+  "relationships": []
+}
